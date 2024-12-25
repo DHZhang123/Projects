@@ -1,0 +1,28 @@
+# environment.yml
+name: myenv
+channels:
+  - roebel
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pysndfile
+  - ffmpeg
+  - django>=5.0
+  - celery
+  - redis-py
+  - psycopg2
+  - gunicorn
+  - tensorflow
+  - channels
+  - channels_redis
+  - daphne
+  - redis
+  - gevent
+  - libsndfile
+  - librosa
+  - pandas
+  - tqdm
+  - djangorestframework
+  - django-cors-headers
